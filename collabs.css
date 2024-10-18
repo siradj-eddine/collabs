@@ -1,0 +1,324 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+.header{
+    background-color:white;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding: 20px 10%;
+    justify-content: space-between;
+    z-index: 100;
+
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    font-size:25px ;
+    font-weight: 500;
+}
+.navbar a{
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    color: blue;
+}
+.contenent{                                             /* FIRST PAGE*/
+    background-image: url(https://colorlibhub.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 68px;
+    width: 100%;
+    height:580px ;
+    display: grid;
+    align-self: center;
+   
+}
+.text{
+    /* background-color: blue; */
+    height: 250px;
+    margin-top: 200px;
+}
+.text h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.text h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    box-sizing: border-box;
+    /* background-color: red; */
+    margin: auto;
+    margin-bottom: 200px;
+   
+}
+.btn button{
+
+    display: inline;
+    margin: 0 10px;
+    
+    width:  200px;
+    height: 55px ;
+    font-size: 17px;
+    letter-spacing: 1px;
+    
+
+}
+.btn1{
+    background-color: rgb(116, 92, 249);
+    color: white;
+    border: 2px rgb(116, 92, 249) solid;
+
+}
+.btn1:hover{
+    background-color: rgb(121, 21, 214);
+    border: 2px rgb(121, 21, 214) solid;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn2{
+    background-color: transparent;
+    color: white;
+    border: 2px white solid;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: white;
+    color: transparent;
+    border: 2px white solid;
+    transition: .3s;
+}                                                /*END*/
+ .second-con, .third-con{                                    /* SECOND PAGE */
+    display: flex;
+    /* margin-top: 40px; */
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height:560px ;
+}
+ img{
+    
+    width: 50%;
+    height: 300px;
+}
+.text2, .text3{
+width: 30%;
+
+}
+.p1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.span1{
+    color: gray;
+    line-height: 1.8em;
+}
+.second-con button, .third-con button, .forth-con button, .fifth-con button, .ninth-con button{
+    display: block;
+    width:  200px;
+    height: 55px ;
+    font-size: 17px;
+    letter-spacing: 1px;
+    background-color: rgb(116, 92, 249);
+    color: white;
+    border: 2px rgb(116, 92, 249) solid;
+}
+.second-con button:hover, .third-con button:hover, .forth-con button:hover, .fifth-con button:hover, .ninth-con button:hover{
+    width:  200px;
+    height: 55px ;
+    font-size: 17px;
+    letter-spacing: 1px;
+    background-color: rgb(121, 21, 214);
+    border: 2px rgb(121, 21, 214) solid;
+    cursor: pointer;
+    transition: .3s;
+ }                                                       /*   END */
+.third-con {
+    width: 100%;
+    height:560px ;
+    background-color: rgb(241, 239, 233);
+}
+
+.forth-con{                                                /*FORTH PAGE*/
+    width: 100%;
+    height: 520px;
+    background-color: rgb(241, 239, 233) ;
+}
+
+
+.bg-img{
+    width: 100%;
+    height: 450px;
+    background: url(https://wallpapercave.com/wp/wp3181502.jpg)  ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.text4, .text5{
+    width: 70%;
+    /* background-color: brown; */
+}
+.forth-con h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+}
+.forth-con h3, .fifth-con h3{
+    color: grey;
+}
+.btn4, .btn5{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}                                                            /*END*/
+
+.fifth-con{                                                  /*FIFTH PAGE*/
+    width: 100%;
+    height: 300px;
+    background-color: rgb(241, 239, 233) ;
+    display: flex;
+    justify-content: center;
+}
+.text5{
+    margin-top: 20px;
+}
+.fifth-con h3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifth-con h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 400;
+}                                                             /*END*/
+
+.sixth-con{                                                   /*SEVENTH PAGE*/
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(241, 239, 233) ;
+}
+.sixth-con img{
+    height: 90%;
+    width: 90%;
+}
+.seventh-con{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1451417379553-15d8e8f49cde.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+}
+.text7 h1{
+    margin-top: 70px;
+    color: white;
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.eighth-con{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text8 h1{
+    margin-top: 70px;
+    color: black;
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.ninth-con{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 239, 233) ;
+}
+.ninth-con button{
+   margin-left: 160px;
+}
+.ninth-con h1{
+font-size: 35px;
+font-weight: 300;
+}
+.text9{
+    display: flex;
+}
+.tenth-con{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: black;
+    color: white;
+}
+.text10{
+    margin-left: 60px;
+    font-size: 15px;
+    display: flex;
+    
+}
+.i{
+   /* background-color: red; */
+   margin-left: 650px;
+   
+}
+.i i{
+    margin: 10px;
+    font-size: 20px;
+}
+.i i:hover{
+    color: rgb(79, 28, 128);
+    transition: .2s;
+    cursor: pointer;
+}
+.text10 a{
+    color:gray;
+    text-decoration: none;
+}
+.text10 a:hover{
+    color: rgb(79, 28, 128);
+    transition: 0.3s;
+}
+
+
